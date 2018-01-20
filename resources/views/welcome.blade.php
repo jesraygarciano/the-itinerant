@@ -4,11 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Codetinerant, Jesray Garciano Web developer" />
+        <meta name="keywords" content="Jesray, Codetinerant, Jesray Garcano, Garciano, Web developer, Jesray Garciano Web developer" />
+        <meta name="author" content="Jesray Garciano" />
+        <meta name="copyright" content="Jesray Garciano" />
 
-        <title>Laravel</title>
+        <title>Codetinerant</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:site_name" content=""/>
+        <meta property="og:description" content=""/>
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="" />
 
         <!-- Styles -->
         <style>
