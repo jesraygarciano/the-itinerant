@@ -25,6 +25,9 @@
         <meta name="twitter:url" content="" />
         <meta name="twitter:card" content="" />
 
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -94,7 +97,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Codetinerant
                 </div>
 
                 <div class="links">
