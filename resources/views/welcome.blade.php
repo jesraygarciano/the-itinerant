@@ -35,7 +35,19 @@
 
 
 
-    
+        <div class="container">
+        <div class="split left">
+            <h1>Code mode</h1>
+            <a href="#!" class="button">Click mode</a>
+        </div>
+
+        <div class="split right">
+            <h1>Mountain mode</h1>
+            <a href="#!" class="button">Click mode</a>
+        </div>
+        </div>
+
+        
         <script type="text/javascript">
             const left = document.querySelector('.left');
             const right = document.querySelector('.right');
