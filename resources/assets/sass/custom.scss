@@ -1,0 +1,109 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;	
+	.container{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: $container-bg-color;
+		.split{
+			position: absolute;
+			width: 50%;
+			height: 100%;
+			overflow: hidden;
+			.left:before{
+				transition: $speed all ease-in-out;
+				position: absolute;
+				content: "";
+				width: 100%;
+				height: 100%;
+				background: $left-bg-color;				
+			}
+			.left{
+				transition: $speed all ease-in-out;
+				left: 0;
+				background: url('../img/code.jpg') center center no-repeat;
+				background-size: cover;				
+				h1{
+					font-size: 4rem;
+					color: #fff;
+					position: absolute;
+					left: 50%;
+					top: 20%;
+					transform: translateX(-50%);
+					white-space: nowrap;					
+				}
+				.button{
+					display: block;
+					position: absolute;
+					left: 50%;
+					top: 40%;
+					height: 2.5rem;
+					padding-top: 1.3rem;
+					width: 15rem;
+					text-align: center;
+					color: #fff;
+					border: #fff solid 0.2rem;
+					font-size: 1rem;
+					font-weight: bold;
+					text-transform: uppercase;
+					text-decoration: none;
+					transform: translateX(-50%);
+				}
+				.button:hover{
+					background-color: $left-button-hover-color;
+					border-color: $left-button-hover-color;
+				}
+			}
+			.right:before{
+				transition: $speed all ease-in-out;
+				position: absolute;
+				content: "";
+				width: 100%;
+				height: 100%;
+				background: $right-bg-color;
+			}
+			.right{
+				transition: $speed all ease-in-out;
+				right: 0;
+				background: url('../img/mountain.jpg') center center no-repeat;
+				background-size: cover;				
+				h1{
+					font-size: 4rem;
+					color: #fff;
+					position: absolute;
+					left: 50%;
+					top: 20%;
+					transform: translateX(-50%);
+					white-space: nowrap;
+				}
+				.button{
+					display: block;
+					position: absolute;
+					left: 50%;
+					top: 40%;
+					height: 2.5rem;
+					padding-top: 1.3rem;
+					width: 15rem;
+					text-align: center;
+					color: #fff;
+					border: #fff solid 0.2rem;
+					font-size: 1rem;
+					font-weight: bold;
+					text-transform: uppercase;
+					text-decoration: none;
+					transform: translateX(-50%);					
+				}
+				.button:hover{
+					background-color: $right-button-hover-color;
+					border-color: $right-button-hover-color;
+
+				}
+			}
+		}
+	}
+}
