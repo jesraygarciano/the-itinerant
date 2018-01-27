@@ -1,0 +1,15 @@
+@media(max-width: 800px) {
+	h1 {
+		font-size: 2rem;
+	}
+	
+	.button {
+		width: 10rem;
+	}
+}
+
+@media(max-height: 700px){
+	.button{
+		top: 70%;
+	}
+}
