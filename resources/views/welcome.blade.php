@@ -9,10 +9,13 @@
         <meta name="author" content="Jesray Garciano" />
         <meta name="copyright" content="Jesray Garciano" />
 
-        <title>Codetinerant</title>
+        <title>{{ config('app.name', 'Codetinerant') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+        {{-- Main CSS --}}
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
         <!-- Facebook and Twitter integration -->
         <meta property="og:title" content=""/>
