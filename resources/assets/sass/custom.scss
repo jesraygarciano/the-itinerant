@@ -101,9 +101,33 @@ body{
 				.button:hover{
 					background-color: $right-button-hover-color;
 					border-color: $right-button-hover-color;
-
 				}
 			}
 		}
 	}
+}
+
+.hover-left .left{
+	width: $hover-width;
+}
+
+.hover-left .right {
+	width: $--other-width;
+}
+
+.hover-left .right:before {
+	z-index: 2;
+}
+
+.hover-right .right{
+	width: $hover-width;
+}
+
+.hover-right .left {
+	width: $other-width;
+}
+
+.hover-right .left:before {
+	z-index: 2;
+
 }
